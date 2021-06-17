@@ -19,7 +19,7 @@ const ELEMENT_DATA: Data[] = [];
   templateUrl: 'table-basic-example.html'
 })
 export class TableBasicExample {
-  displayedColumns: string[] = ['id', 'firstName', 'lastName'];
+  displayedColumns: string[] = ['id', 'userId', 'title', 'completed'];
 
   dataSource: any[] = [];
 
