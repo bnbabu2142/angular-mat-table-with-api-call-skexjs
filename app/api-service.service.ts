@@ -8,7 +8,7 @@ export class APIServiceService {
   constructor(private http: HttpClient) { }
 
   getData() : Promise<any>{
-    return this.http.get('https://jsonplaceholder.typicode.com/todos').
+    return this.http.get('https://ec2-18-216-30-89.us-east-2.compute.amazonaws.com:8442/demo/findall').
     toPromise();
     //https://jsonplaceholder.typicode.com/todos
   }
